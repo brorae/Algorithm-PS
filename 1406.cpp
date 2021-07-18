@@ -1,6 +1,5 @@
 #include<iostream>
 #include<stack>
-#include<queue>
 #include<string>
 
 using namespace std;
@@ -8,24 +7,29 @@ using namespace std;
 int main(){
     string str;
     char cmd1,cmd2,tmp;
-    stack<char> st;
-    queue<char> que;
+    stack<char> st1,st2;
     int n;
     cin >> str;
     cin >> n;
     for (int i=0;i<n;i++){
-        st.push(str[i]);
+        st1.push(str[i]);
     }
     while(n--){
         cin >> cmd1;
         if (cmd1 == 'L'){
-            tmp = st.top();
-            st.pop();
-            que.push(tmp);
+            if (!st1.empty()){
+                tmp = st1.top();
+                st1.pop();
+                st2.push(tmp);
+            }
         }
         else if (cmd1 == 'P'){
             cin >> cmd2;
-            st.push(cmd2);
+            st1.push(cmd2);
+            while (!st2.empty()){
+                st1.push(st2.top());
+                st2.pop();
+            }
         }
     }
 }  
