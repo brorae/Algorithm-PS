@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     string str = "abcdef";
-    int a = str.find("ds");
-    cout << a;
-    return 0;
+    for (int i=0;i<str.length()+1;i++){
+        cout << str[i] << " ";
+    }
 }
