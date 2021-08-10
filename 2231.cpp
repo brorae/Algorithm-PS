@@ -16,7 +16,7 @@ int main(){
     int n;
     int result=0;
     cin >> n;
-    for(int i=10;i<1000000;i++){
+    for(int i=1;i<=1000000;i++){
         if (n == sum(i)){
             result = i;
             break;
