@@ -16,7 +16,7 @@ bool sosu(int a){
 }
 
 void sol(){
-    for (int i=2;i<=1000000;i++){ //100¸¸
+    for (int i=2;i<=1000000;i++){ //100ï¿½ï¿½
         if(sosu(i)){
             
         }
