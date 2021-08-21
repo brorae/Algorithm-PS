@@ -24,6 +24,7 @@
  [2164](https://www.acmicpc.net/problem/2164)
  [2231](https://www.acmicpc.net/problem/2231)
  [2509](https://www.acmicpc.net/problem/2509)
+ [2606](https://www.acmicpc.net/problem/2606)
  [2743](https://www.acmicpc.net/problem/2743)
  [2745](https://www.acmicpc.net/problem/2745)
  [2747](https://www.acmicpc.net/problem/2747)
