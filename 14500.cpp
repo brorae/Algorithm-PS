@@ -36,6 +36,11 @@ int sol2(){
     return max;
 }
 
+int sol3(){
+    int max = -1;
+    for (int i=0)
+}
+
 int main(){
     cin >> n >> m;
     for(int i=0;i<n;i++){
@@ -45,5 +50,5 @@ int main(){
             arr[i][j] = k;
         }
     }
-    cout << sol1();
+
 }
