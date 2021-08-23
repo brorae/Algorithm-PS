@@ -3,6 +3,8 @@
 
  [1003](https://www.acmicpc.net/problem/1003)
  [1018](https://www.acmicpc.net/problem/1018)
+ [1037](https://www.acmicpc.net/problem/1037)
+ [1094](https://www.acmicpc.net/problem/1094)
  [1212](https://www.acmicpc.net/problem/1212)
  [1260](https://www.acmicpc.net/problem/1260)
  [1158](https://www.acmicpc.net/problem/1158)
