@@ -38,6 +38,7 @@
  [2745](https://www.acmicpc.net/problem/2745)
  [2747](https://www.acmicpc.net/problem/2747)
  [2750](https://www.acmicpc.net/problem/2750)
+ [2960](https://www.acmicpc.net/problem/2960)
  [3085](https://www.acmicpc.net/problem/3085)
  [5543](https://www.acmicpc.net/problem/5543)
  [5555](https://www.acmicpc.net/problem/5555)
