@@ -36,6 +36,7 @@
  [2509](https://www.acmicpc.net/problem/2509)
  [2563](https://www.acmicpc.net/problem/2563)
  [2606](https://www.acmicpc.net/problem/2606)
+ [2693](https://www.acmicpc.net/problem/2693)
  [2743](https://www.acmicpc.net/problem/2743)
  [2744](https://www.acmicpc.net/problem/2744)
  [2745](https://www.acmicpc.net/problem/2745)

@@ -1,12 +1,13 @@
 #include<iostream>
-#include<iostream>
+#include<algorithm>
 
-using namesapce std;
+using namespace std;
 
 int arr[1001][11];
 
 int main(){
   int t;
+  cin >> t;
   for(int i=0;i<t;i++){
     for(int j=0;j<10;j++){
       cin >> arr[i][j];
@@ -14,6 +15,7 @@ int main(){
     sort(arr[i],arr[i]+10);
   }
   for (int i=0;i<t;i++){
-    cout << arr[i][2] << "\n";
+    cout << arr[i][7] << "\n";
   }
+  return 0;
 }
