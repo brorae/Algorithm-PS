@@ -22,6 +22,7 @@
  [1699](https://www.acmicpc.net/problem/1699)
  [1748](https://www.acmicpc.net/problem/1748)
  [1874](https://www.acmicpc.net/problem/1874)
+ [1924](https://www.acmicpc.net/problem/1924)
  [1929](https://www.acmicpc.net/problem/1929)
  [1934](https://www.acmicpc.net/problem/1934)
  [1935](https://www.acmicpc.net/problem/1935)
