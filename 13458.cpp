@@ -3,7 +3,7 @@
 using namespace std;
 
 int arr[1000001];
-int cnt[1000001];
+long long cnt[1000001];
 int main(){
     int n,a,b,c;
     cin >> n;
@@ -23,7 +23,7 @@ int main(){
             }
         }
     }
-    int sum = 0;
+    long long sum = 0;
     for (int i=0;i<n;i++){
         sum += cnt[i];
     }
