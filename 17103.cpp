@@ -1,50 +1,33 @@
 #include<iostream>
-#include<cmath>
 
 using namespace std;
 
-int arr[1000001] = {0,};
-
-
-bool sosu(int a){
-    if (a < 2) return false;
-    int b =(int)(sqrt(a))+1;
-    for(int i=2;i<b;i++)
-        if(a%i == 0)
-            return false;
-    return true;
-}
-
-void sol(){
-    for (int i=2;i<=1000000;i++){ //100��
-        if(sosu(i)){
-            
-        }
-    }
-}
+bool prime[1000001];
 
 int main(){
     ios_base::sync_with_stdio(0);
     cin.tie(0);
-    cout.tie(0);
-    sol();
-    int n;
-    cin >> n;
-    while(n--){
-        int num;
-        cin >> num;
-        int count = 0;
-        for (int i=0;i<v.size();i++){
-            if (v[i] > num) break;
-            if(sosu(num - v[i]))
-                count ++;
+
+    int t;
+    cin >> t;
+    for (int i=2;i<=1000000;i++){
+        if (!prime[i]){
+            for (int j=i+i;j<=1000000;j+=i){
+                prime[j] = true;
+            }
         }
-        if (count % 2 == 0)
-            count /= 2;
-        else
-            count = count/2 + 1;
-        cout << count << "\n";
+    }
+
+    for (int i=0;i<t;i++){
+        int num;
+        int cnt = 0;
+        cin >> num;
+        for (int j=2;j<=num/2;j++){
+            if (!(prime[j] || prime[num-j])){
+                cnt++;
+            }
+        }
+        cout << cnt << "\n";
     }
     return 0;
-
 }
