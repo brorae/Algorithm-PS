@@ -15,6 +15,7 @@
  [1158](https://www.acmicpc.net/problem/1158)
  [1373](https://www.acmicpc.net/problem/1373)
  [1406](https://www.acmicpc.net/problem/1406)
+ [1427](https://www.acmicpc.net/problem/1427)
  [1436](https://www.acmicpc.net/problem/1436)
  [1463](https://www.acmicpc.net/problem/1463)
  [1475](https://www.acmicpc.net/problem/1475)

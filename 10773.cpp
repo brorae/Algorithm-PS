@@ -22,6 +22,5 @@ int main(){
     return 0;
 }
 /* ***
-st.size()로 for문 쓰면 정상적으로 작동을 안하네??
 while문 쓰기 
-*** */
+*** */  
