@@ -21,6 +21,7 @@
  [1463](https://www.acmicpc.net/problem/1463)
  [1475](https://www.acmicpc.net/problem/1475)
  [1476](https://www.acmicpc.net/problem/1476)
+ [1654](https://www.acmicpc.net/problem/1654)
  [1676](https://www.acmicpc.net/problem/1676)
  [1699](https://www.acmicpc.net/problem/1699)
  [1748](https://www.acmicpc.net/problem/1748)
