@@ -3,13 +3,14 @@
 
 using namespace std;
 
-map<string,int> m;
+
 
 int main(){
     int t;
-    int ans = 1;
     cin >> t;
     for (int i=0;i<t;i++){
+        map<string,int> m;
+        int ans = 1;
         int n;
         cin >> n;
         for (int j=0;j<n;j++){
@@ -22,10 +23,10 @@ int main(){
                 m[b]++;
             }
         }
+        for (auto iter : m){
+            ans *= (iter.second+1);
+        }
+        cout << ans - 1 << "\n";
     }
-    for (auto iter = m.begin();iter != m.end();iter++){
-        ans *= iter->second;
-    }
-    cout << ans - 1;
     return 0;
 }
