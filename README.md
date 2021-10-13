@@ -50,6 +50,7 @@
  [2509](https://www.acmicpc.net/problem/2509)
  [2558](https://www.acmicpc.net/problem/2558)
  [2563](https://www.acmicpc.net/problem/2563)
+ [2579](https://www.acmicpc.net/problem/2579)
  [2606](https://www.acmicpc.net/problem/2606)
  [2693](https://www.acmicpc.net/problem/2693)
  [2740](https://www.acmicpc.net/problem/2740)
