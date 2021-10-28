@@ -53,6 +53,7 @@
  [2563](https://www.acmicpc.net/problem/2563)
  [2579](https://www.acmicpc.net/problem/2579)
  [2606](https://www.acmicpc.net/problem/2606)
+ [2630](https://www.acmicpc.net/problem/2630)
  [2693](https://www.acmicpc.net/problem/2693)
  [2740](https://www.acmicpc.net/problem/2740)
  [2743](https://www.acmicpc.net/problem/2743)
