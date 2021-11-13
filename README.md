@@ -105,6 +105,7 @@
  [10845](https://www.acmicpc.net/problem/10845)
  [10866](https://www.acmicpc.net/problem/10866)
  [10872](https://www.acmicpc.net/problem/10872)
+ [10989](https://www.acmicpc.net/problem/10989)
  [11005](https://www.acmicpc.net/problem/11005)
  [11047](https://www.acmicpc.net/problem/11047)
  [11050](https://www.acmicpc.net/problem/11050)
